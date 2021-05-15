@@ -1,0 +1,259 @@
+/*Styling Common to all pages.........................................................*/
+
+.mainbody {
+    color: white;
+}
+
+header {
+    width: fullscreen;
+}
+
+footer {
+    background-color: rgb(161, 26, 26);
+    width: fullscreen;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p {
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+footer a {
+    padding: 15px 10px 15px;
+    font-size: 24px;
+}
+
+footer a, footer a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;    
+}
+
+.copyright-text {
+    font-size: 8px;
+}
+
+.logocontainer {
+    padding-top: 30px;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+.logorow {
+    background-color: rgba(23, 23, 24, 0.993);
+    margin-top: 30px;   
+}
+
+.iconcol {
+    margin-top: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 10px 10px;
+    margin-top: 10px;
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.callout-bar {
+    height: 60px;
+    width: fullscreen;
+    background-color: red;
+    padding: 2px 6px;
+    text-align: center;
+}
+
+.callout-bar p {
+    padding-top: 8px;
+}
+
+.callout-bar a {
+    margin-bottom: 5px;
+}
+
+
+/*Styling for Index.html..................................................*/
+
+.slogan {
+    text-align: center;
+    background-color: rgba(23, 23, 24, 0.993);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.slogan p {
+    size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+}
+
+.slogan hr {
+    color:rgb(161, 26, 26);
+    height: 5px;
+}
+
+.reasons {
+    background-color: rgba(23, 23, 24, 0.993);
+    margin: 0 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.map {
+    height: 180px;
+    width: fullscreen; 
+}
+    
+
+/*Styling for signup.html........................................................................*/
+
+form {
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+li {
+    list-style: none;
+}
+
+.logocontainer-signup {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(23, 23, 24, 0.993);
+}
+
+.signup-ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.inputbox {
+    margin: 5px 0px 5px;
+}
+
+.basicdetails {
+    margin: 10px 3px 10px;
+}
+
+.textarea {
+    margin-top: 10px;
+}
+
+.fitnessgoals {
+    margin-top: 40px;
+}
+
+.submit-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.submit-btn input {
+    border-radius: 5px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+}
+
+/*Styling for our-classes.html........................................................................*/
+
+.tabledata {
+    border-width: 1px;
+    border-color: rgb(161, 26, 26);
+    text-align: center;
+}
+
+.tablerow {
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: rgb(161, 26, 26);  
+}
+
+.ourclassesmain {
+    background-color: rgba(23, 23, 24, 0.993);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ourclassesmain p {
+    text-align: justify;
+}
+
+.ourclassesmain h2 {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+/*Media Screen Queries..................................................................................*/
+
+
+@media screen and (min-width: 200px) {
+    .iconcol {
+        font-size: 45px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .iconcol {
+        font-size: 80px;
+    }
+
+    .slogan h1 {
+        font-size: 50px;
+    }
+
+    .slogan p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .iconcol {
+        font-size: 110px;
+        padding-bottom: 10px;
+    }
+
+    .slogan h1 {
+        font-size: 50px;
+    }
+
+    .slogan p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .iconcol {
+        font-size: 180px;
+        padding-bottom: 20px;
+    }
+
+.slogan h1 {
+    padding-top: 50px;
+}
