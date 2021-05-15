@@ -71,7 +71,7 @@ h2 {
 }
 
 .callout-bar {
-    height: 60px;
+    min-height: 60px;
     width: fullscreen;
     background-color: red;
     padding: 2px 6px;
@@ -80,6 +80,7 @@ h2 {
 
 .callout-bar p {
     padding-top: 8px;
+    margin-bottom: .3rem;
 }
 
 .callout-bar a {
@@ -157,10 +158,12 @@ li {
 
 .textarea {
     margin-top: 10px;
+    max-width: 100%;
 }
 
 .fitnessgoals {
     margin-top: 40px;
+    max-width: 80%;
 }
 
 .submit-btn {
@@ -193,14 +196,15 @@ li {
 
 .ourclassesmain {
     background-color: rgba(23, 23, 24, 0.993);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
 .ourclassesmain p {
     text-align: justify;
+    margin-bottom: 2rem;
 }
 
 .ourclassesmain h2 {
@@ -208,8 +212,12 @@ li {
     margin-bottom: 5px;
 }
 
+.ourclassesmain table {
+    margin-top: 1rem;
+}
 
-/*Media Screen Queries..................................................................................*/
+
+/*Media Screen Queries Common to all Pages..................................................................................*/
 
 
 @media screen and (min-width: 200px) {
@@ -230,6 +238,26 @@ li {
 
     .slogan p {
         font-size: 25px;
+    }
+
+    .map {
+        height: 240px;
+    }
+
+    .map iframe {
+        height: 240px;
+    }
+
+    footer a {
+        font-size: 36px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
     }
 }
 
@@ -254,6 +282,76 @@ li {
         padding-bottom: 20px;
     }
 
-.slogan h1 {
+    .slogan h1 {
     padding-top: 50px;
+    }
+
+}
+
+
+
+/*Media Screen Queries - SignUp Page..............................................*/
+
+@media screen and (min-width: 768px) {
+    .inputbox {
+        margin-bottom: 20px;
+        
+    }
+
+    .inputbox input {
+        width: 90%;
+    }
+
+    .fitnessgoals {
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 120px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .inputbox input {
+        max-width: 80%
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .sign-up li {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .slogan h1 {
+    padding-top: 50px;
+    }
+
+    .fitnessgoals {
+        padding-left: 320px;
+        padding-right: 350px;
+    }
+
+}
+
+/*Media Screen Queries - Our-Classes Page..............................................*/
+
+@media screen and (min-width: 200px) {
+    .tablerow {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .tablerow {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tablerow {
+        font-size: 1.5rem;
+    }
+    .ourclassesmain p {
+        font-size: 1.3rem;
+    }
 }
