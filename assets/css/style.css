@@ -1,0 +1,596 @@
+/*Styling Common to all pages.........................................................*/
+
+/*General background color and font color...............................*/
+
+.mainbody {
+    color: white;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+
+/*Styling for Footer...............................*/
+
+footer {
+    background-color: rgb(161, 26, 26);
+    text-align: center;
+    padding-top: 15px;
+    clear: both;
+}
+
+footer p {
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+footer a {
+    padding: 15px 10px 15px;
+    font-size: 24px;
+}
+
+footer a, footer a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyright-text {
+    font-size: 8px;
+}
+
+/*Styling for headers - uses Font Awesome...............................*/
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;    
+}
+
+
+/*Images generally...............................*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:rgb(161, 26, 26);
+    border-width: 2px;
+}
+
+
+/*Styling to create the logo...............................*/
+
+.logocontainer {
+    padding-top: 30px;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+.logorow {
+    margin-top: 30px;   
+}
+
+.iconcol {
+    margin-top: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 10px 10px;
+    margin-top: 10px;
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+/*Styling for Index.html..................................................*/
+
+
+/*Styling for callout bar...............................*/
+
+.callout-bar {
+    min-height: 60px;
+    background-color: red;
+    padding: 2px 6px;
+    text-align: center;
+}
+
+.callout-bar p {
+    padding-top: 8px;
+    margin-bottom: .3rem;
+}
+
+.callout-bar a {
+    margin-bottom: 5px;
+}
+
+
+/*Styling for map...............................*/
+
+.map iframe {
+    width: 100%;
+}
+
+.map {
+    height: 180px;
+    
+}
+
+
+/*Styling for slogan...............................*/
+
+.slogan {
+    text-align: center;
+    background-color: rgba(23, 23, 24, 0.993);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.slogan p {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+}
+
+.slogan hr {
+    color:rgb(161, 26, 26);
+    height: 5px;
+}
+
+/*Reasons section...............................*/
+
+.reasons {
+    background-color: rgba(23, 23, 24, 0.993);
+    margin: 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image-grid {
+    padding: 20px;
+}
+
+.contact-us {
+    padding-top: 30px;
+    
+    background-color:rgba(23, 23, 24, 0.993)
+}
+
+.contact-us h2 {
+    padding-left: 42px;
+}
+    
+
+/*Styling for signup.html........................................................................*/
+
+form {
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+li {
+    list-style: none;
+}
+
+.signup-ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.inputbox {
+    margin: 5px 0px 5px;
+}
+
+.basicdetails {
+    margin: 10px 3px 10px;
+}
+
+.textarea {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.fitnessgoals {
+    margin-top: 40px;
+    max-width: 80%;
+}
+
+/*Button...............................*/
+
+.submit-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.submit-btn input {
+    border-radius: 5px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+}
+
+/*Styling for our-classes.html........................................................................*/
+
+#timetable {
+    margin: 0 20px 20px;
+}
+
+.tabledata {
+    border-width: 1px;
+    border-color: rgb(161, 26, 26);
+    text-align: center;
+}
+
+.tablerow {
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0.75rem;
+    border-color: rgb(161, 26, 26);  
+}
+
+.ourclassesmain {
+    background-color: rgba(23, 23, 24, 0.993);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ourclassesmain p {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.ourclassesmain h2 {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.ourclassesmain table {
+    margin-top: 1rem;
+}
+
+
+/*Styling for Gallery page.................................*/
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+    background-color: rgba(23, 23, 24, 0.993);
+}
+
+#photo img{
+    max-width: 100%;
+    border: none;
+    border-radius: 0px;
+}
+
+/*Styling for members-quotes.html.................................*/
+
+.quotes {
+    clear: both;
+    background-color: rgba(23, 23, 24, 0.993);
+    margin-bottom: 50px;
+}
+
+.quotes img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 60px;
+}
+
+/*Uses Lato font-family from Font Awesome.................................*/
+.quotes p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: .3rem;
+}
+
+/*Styling for news.html page.................................*/
+
+.news-events-table {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.news-events h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.post-date {
+    text-align: left;
+}
+
+.post-topic {
+    text-align: center;
+}
+
+.post-text {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.underline {
+    border-bottom: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+#exercise-video-container {
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center; 
+    
+}
+
+#exercise-section {
+    max-width: 80%;
+    margin: 20px auto;
+    
+}
+
+#exercise-video {
+    max-width: 100%;
+}
+
+
+/*Styling for facilities.html.....................................*/
+
+#facilities {
+    margin: 0px 15px;
+}
+
+#facilities p {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#facilities h2 p ul{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+
+#facilities li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+
+/*Media Screen Queries Common to all Pages..................................................................................*/
+
+@media screen and (min-width: 200px) {/*Improves visuals on the smallest mobile screens.......................*/
+    .iconcol {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) {/*Improves visuals on medium sized screens.......................*/
+    .iconcol {
+        font-size: 80px;
+    }
+
+    .slogan h1 {
+        font-size: 50px;
+    }
+
+    .slogan p {
+        font-size: 25px;
+    }
+
+    .map {
+        height: 240px;
+    }
+
+    .map iframe {
+        height: 240px;
+    }
+
+    footer a {
+        font-size: 36px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {/*Improves visuals on laptop sized screens.......................*/
+    .iconcol {
+        font-size: 110px;
+        padding-bottom: 10px;
+    }
+
+    .slogan h1 {
+        font-size: 50px;
+    }
+
+    .slogan p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {/*Improves visuals on desktop sized screens.......................*/
+    .iconcol {
+        font-size: 180px;
+        padding-bottom: 20px;
+    }
+
+    .slogan h1 {
+    padding-top: 50px;
+    }
+
+}
+
+/*Media Screen Queries - index.html..............................................*/
+
+@media screen and (min-width: 1020px) {/*Improves visuals with more padding on laptops and desktops.......................*/
+
+    .reasons {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+}
+
+
+/*Media Screen Queries - SignUp Page..............................................*/
+
+@media screen and (min-width: 768px) {/*Improves layout on medium sized screens.......................*/
+
+    .inputbox {
+        margin-bottom: 20px;
+        
+    }
+
+    .inputbox input {
+        width: 90%;
+    }
+
+    .fitnessgoals {
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 120px;
+    }
+}
+
+@media screen and (max-width: 310px) {/*Improves layout on small sized screens.......................*/
+    
+    .inputbox input {
+        max-width: 80%
+    }
+
+}
+
+@media screen and (min-width: 1920px) {/*Improves layout on larger sized screens.......................*/
+
+    .sign-up li {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .slogan h1 {
+    padding-top: 50px;
+    }
+
+    .fitnessgoals {
+        padding-left: 320px;
+        padding-right: 350px;
+    }
+
+}
+
+/*Media Screen Queries - Our-Classes Page..............................................*/
+
+@media screen and (min-width: 200px) {/*Improves layout on very small sized screens.......................*/
+    .tablerow {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 320px) {/*Improves layout on most mobile device sized screens.......................*/
+    .tablerow {
+        font-size: .8rem;
+    }
+
+    .tabledata {
+        width: 8%;
+    }
+}
+
+@media screen and (min-width: 768px) {/*Improves layout on medium sized screens.......................*/
+
+    .tablerow {
+        font-size: 1.5rem;
+    }
+
+    .ourclassesmain p {
+        font-size: 1.3rem;
+    }
+
+    .tabledata {
+        width: 9%;
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width: 769px) {/*Allows for full class names to be displayed in table for medium sized screen upwards.......................*/
+    .table-area-smaller-screens {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 769px) {/*Allows for abbreviated class names to be displayed in mobile sized screens.......................*/
+    .table-area-larger-screens {
+        display: none;
+    }
+}
+
+/*Media Screen Queries - Gallery Page..............................................*/
+
+@media screen and (min-width: 768px) {/*Allows for masonry layout 4 columns wide on medium screen sizes upwards.......................*/
+    #photo {
+        column-count: 4;
+    }
+}
+
+/*Media Screen Queries - Members-Quotes Page..............................................*/
+
+@media screen and (min-width: 1020px) {/*Improved layout on larger screens.......................*/
+    .quotes img {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {/*Improved layout on medium sized screens.......................*/
+    .quotes img {
+        height: 150px;
+    }
+
+    .quotes p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {/*Avoids problems caused by justified text on the smallest screen sizes.......................*/
+    .quotes p {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+

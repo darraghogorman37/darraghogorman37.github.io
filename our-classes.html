@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Link to my .css file-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--Link to bootstrap .css files-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--Link to Font Awesome .css files for icons and font-styling-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
@@ -14,189 +19,286 @@
     <title>All-in-Gym Home</title>
 </head>
 
-<body class=mainbody>
+<body class="mainbody">
     <header>
-    
+        <!--<nav> element below is based upon Bootstrap navbar. Expands from dropdown / hamburger style to conventional navbar at the medium screen size. Dark navbar selected.-->
         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgba(23, 23, 24, 0.993)">
-            <div class="container-fluid">
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class= "container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="signup.html">Sign-Up</a>
-                    </li>
+                </button>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="our-classes.html">Our Classes</a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <!--<li> elements contained within Bootstrap navbar and contain links to other webpages on the site-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign-Up</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">What Our Members Say</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our-classes.html">Our Classes</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Our Facilities</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="members-quotes.html">What Our Members Say</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="facilities.html">Our Facilities</a>
+                        </li>
                     
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                     
-                </ul>
-              </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li> 
+                    </ul>
+                </div>
             </div>
         </nav>
-
     </header>
 
-    <div class="container-fluid">
-            
-        <div class="row logorow">
+    <section>
+        <!--Bootstrap Grid system used to layout logo-->
+        <div class="container-fluid logocontainer">
 
-            <div class="col"></div>
+            <div class="row logorow">
 
-            <div class="col-3 col-md-2 g-0 iconcol">
+                <div class="col"></div>
+
+                <div class="col-3 col-md-2 g-0 iconcol">
+                <!--Font Awesome Dumbell logo-->
                 <i class="fas fa-dumbbell"></i>
+                </div>
+
+                <div class="col"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--<div> Below for description of each of the class types--->
+    
+        <div class="ourclassesmain">
+        
+            <p>
+                At All-In-Gym we aim to cater for ALL our memebers, irrespective of their age, gender and current fitness levels. Its part of our primary philosophy of being ALL-INclusive. As well as being free to use the gym to workout during opening hours, our members have access to a range of classes. A description of these classes is outlined below along with the current weekly class schedule.
+            </p>
+
+            <h2>Kick-Boxercise (KB)</h2>
+            <p>A great all-round workout utilising the fundamental movements of the sport of boxing - punching, kicking and fast footwork.</p>
+
+            <h2>Sweat Fest (SF)</h2>
+            <p>An intensive cardio workout on our high-tech treadmills and rowing machines.</p>
+
+            <h2>Pure Power (PP)</h2>
+            <p>A weight-training based workout for those looking to maintain and increase their strength levels.</p>
+
+            <h2>Limber Up (LU)</h2>
+            <p>A series of stretching exercises that will rid your body of aches and pains and increase your flexiblity.</p>
+    
+
+    <!--Section below for class timetables on smaller screens-->
+    <section id="timetable">
+            <h2>Class Timetable</h2>
+            <div class="table-area-smaller-screens">
+                <table>
+                    <tr class="tablerow">
+                        <td class="tabledata">Day</td>
+                        <td class="tabledata">6am-7am</td>
+                        <td class="tabledata">7am-8am</td>
+                        <td class="tabledata">12pm-1pm</td>
+                        <td class="tabledata">1pm-2pm</td>
+                        <td class="tabledata">5pm-6pm</td>
+                        <td class="tabledata">6pm-7pm</td>
+                        <td class="tabledata">8pm-9pm</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                        <td class="tabledata">Mon</td>
+                        <td class="tabledata">LU</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">LU</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                            <td class="tabledata">Tues</td>
+                            <td class="tabledata">LU</td>
+                            <td class="tabledata">PP</td>
+                            <td class="tabledata">SF</td>
+                            <td class="tabledata">KB</td>
+                            <td class="tabledata">PP</td>
+                            <td class="tabledata">SF</td>
+                            <td class="tabledata">LU</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                        <td class="tabledata">Weds</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">LU</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">LU</td>
+                        <td class="tabledata">PP</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                        <td class="tabledata">Thurs</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">LU</td>
+                        <td class="tabledata">LU</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                        <td class="tabledata">Fri</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">LU</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">SF</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                        <td class="tabledata">Sat</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">LU</td>
+                    </tr>
+
+                    <tr class="tablerow">
+                        <td class="tabledata">Sun</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">LU</td>
+                        <td class="tabledata">KB</td>
+                        <td class="tabledata">PP</td>
+                        <td class="tabledata">SF</td>
+                        <td class="tabledata">PP</td>
+                    </tr>
+                </table>
             </div>
 
-            <div class="col"></div>
+            
+            <!--Section below for class timetables on larger screens-->
+            <div class="table-area-larger-screens">
+                <table>
+                    <tr class="tablerow">
+                        <td class="tabledata">Day</td>
+                        <td class="tabledata">6am-7am</td>
+                        <td class="tabledata">7am-8am</td>
+                        <td class="tabledata">12pm-1pm</td>
+                        <td class="tabledata">1pm-2pm</td>
+                        <td class="tabledata">5pm-6pm</td>
+                        <td class="tabledata">6pm-7pm</td>
+                        <td class="tabledata">8pm-9pm</td>
+                    </tr>
+            
+                    <tr class="tablerow">
+                        <td class="tabledata">Mon</td>
+                        <td class="tabledata">Limber Up</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Limber Up</td>
+                    </tr>
+            
+                    <tr class="tablerow">
+                            <td class="tabledata">Tues</td>
+                            <td class="tabledata">Limber Up</td>
+                            <td class="tabledata">Pure Power</td>
+                            <td class="tabledata">Sweat Fest</td>
+                            <td class="tabledata">Kick-Boxercise</td>
+                            <td class="tabledata">Pure Power</td>
+                            <td class="tabledata">Sweat Fest</td>
+                            <td class="tabledata">Limber Up</td>              
+                    </tr>
+            
+                    <tr class="tablerow">
+                        <td class="tabledata">Weds</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Limber Up</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Limber Up</td>
+                        <td class="tabledata">Pure Power</td>       
+                    </tr>
+            
+                    <tr class="tablerow">
+                        <td class="tabledata">Thurs</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Limber Up</td>
+                        <td class="tabledata">Limber Up</td>          
+                    </tr>
+            
+                    <tr class="tablerow">
+                        <td class="tabledata">Fri</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Limber Up</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Sweat Fest</td>          
+                    </tr>
+            
+                    <tr class="tablerow">
+                        <td class="tabledata">Sat</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Limber Up</td>          
+                    </tr>
+            
+                    <tr class="tablerow">
+                        <td class="tabledata">Sun</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">-</td>
+                        <td class="tabledata">Limber Up</td>
+                        <td class="tabledata">Kick-Boxercise</td>
+                        <td class="tabledata">Pure Power</td>
+                        <td class="tabledata">Sweat Fest</td>
+                        <td class="tabledata">Pure Power</td>          
+                    </tr>
+                </table>   
         </div>
-
-    </div>
-
-    <div class="ourclassesmain">
-    
-    <p>
-        At All-In-Gym we aim to cater for ALL our memebers, irrespective of their age, gender and current fitness levels. Its part of our primary philosophy of being ALL-INclusive. As well as being free to use the gym to workout during opening hours, our memebers have access to a range of classes. A description of these classes is outlined below along with the current weekly class schedule.
-    </p>
-
-    <h2>Kick-Boxercise (KB)</h2>
-    <p>A great all-round workout utilising the fundamental movements of the sport of boxing - punching, kicking and fast footwork.</p>
-
-    <h2>Sweat Fest (SF)</h2>
-    <p>An intensive cardio workout on our high-tech treadmills and rowing machines.</p>
-
-    <h2>Pure Power (PP)</h2>
-    <p>A weight-training based workout for those looking to maintain and increase their strength levels.</p>
-
-    <h2>Limber Up (LU)</h2>
-    <p>A series of stretching exercises that will rid your body of aches and pains and increase your flexiblity.</p>
-
-    <h2>Class Timetable</h2>
-    <table>
-        <tr class="tablerow">
-            <td class="tabledata">Day</td>
-            <td class="tabledata">6am-7am</td>
-            <td class="tabledata">7am-8am</td>
-            <td class="tabledata">12pm-1pm</td>
-            <td class="tabledata">1pm-2pm</td>
-            <td class="tabledata">5pm-6pm</td>
-            <td class="tabledata">6pm-7pm</td>
-            <td class="tabledata">8pm-9pm</td>
-
-        </tr>
-
-        <tr class="tablerow">
-            <td class="tabledata">Mon</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">LU</td>
-        </tr>
-
-        <tr class="tablerow">
-                <td class="tabledata">Tues</td>
-                <td class="tabledata">LU</td>
-                <td class="tabledata">PP</td>
-                <td class="tabledata">SF</td>
-                <td class="tabledata">KB</td>
-                <td class="tabledata">PP</td>
-                <td class="tabledata">SF</td>
-                <td class="tabledata">LU</td>
-    
-        </tr>
-
-        <tr class="tablerow">
-            <td class="tabledata">Weds</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">PP</td>
-
-        </tr>
-
-        <tr class="tablerow">
-            <td class="tabledata">Thurs</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">LU</td>
-
-        </tr>
-
-        <tr class="tablerow">
-            <td class="tabledata">Fri</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">SF</td>
-
-        </tr>
-
-        <tr class="tablerow">
-            <td class="tabledata">Sat</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">LU</td>
-
-        </tr>
-
-        <tr class="tablerow">
-            <td class="tabledata">Sun</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">LU</td>
-            <td class="tabledata">KB</td>
-            <td class="tabledata">PP</td>
-            <td class="tabledata">SF</td>
-            <td class="tabledata">PP</td>
-
-        </tr>
-
-
-    
-    </table>
-
-    </div>
-    
-    <footer>
+    </section>
         
+    </div>
+    
+    <!--Footer below with <i> elements linking to Font Awesome icons for social media sites-->
+    <footer>
         <a href="https://www.facebook.com" target="blank">
             <i class="fab fa-facebook"></i>  
         </a>
@@ -231,9 +333,10 @@
 
         <p class="copyright-text">© Copyright 2021 All Rights Reserved</p>
 
+    </footer>
     
-</footer>
-
+    <!--Bootstrap Java to enable navbar----------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>
+</html>
